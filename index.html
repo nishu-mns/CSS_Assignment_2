@@ -2,44 +2,59 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Assignment-2</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <title>Assignment 2</title>
 </head>
 
 <body>
-    <div>
-        <!-- This is a sidebar -->
-        <aside id="links">
-            <a href="#">w3schools - HTML</a>
-            <a href="#">w3schools - CSS</a>
-            <a href="#">w3schools - JS</a>
-            <a href="#">w3schools - PHP</a>
-        </aside>
-        <section id="content">
-            <!-- Heading -->
-            <h1>My first styled page</h1>
-
-            <!-- These are paragraphs -->
+    <aside>
+        <ul>
+            <li>w3schools - HTML</li>
+            <li>w3schools - CSS</li>
+            <li>w3schools - JS</li>
+            <li>w3schools - PHP</li>
+        </ul>
+    </aside>
+    <main>
+        <section class="about-section">
+            <h1 style="font: bold 30px Arial, Helvetica, sans-serif;">My first styled page</h1>
             <p>Welcome to my styled page!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Nihil totam repudiandae eligendi qui veniam
-                 asper... </p>
-            <p id="lastpara">Lorem ipsum dolor sit amet, consectetur adipisicing elit, Nihil totam repudiandae eligendi
-                qui veniam asper. </p>
-            <hr class="hr" />
-            <p id="border1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <p id="border2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <p id="border3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-
-            <!-- This is a footer section -->
-            <section id="footer">
-                <p><i>Made 25 January 2018</i><br>
-                    <i>By myself.</i>
-                </p>
-            </section>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, Nihil eligendi qui veniam
+                asper...
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, Nihil eligendi qui veniam
+                asper...
+            </p>
         </section>
-    </div>
+        <div class="break-point"></div>
+        <section class="content-section">
+            <div class="bordered-div">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.</p>
+            </div>
+            <div class="bordered-div">
+                <p>
+                    <i>Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.</i>
+                </p>
+            </div>
+            <div class="bordered-div">
+                <p>
+                    <b>Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.</b>
+                </p>
+            </div>
+        </section>
+        <section class="copyright-section">
+            <p><i>Made 25 January 2018</i><br>
+                <i>by myself.</i>
+            </p>
+        </section>
+    </main>
 </body>
 
 </html>
